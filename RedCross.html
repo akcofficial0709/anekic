@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Cross Student Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding the favicon -->
+    <link rel="icon" href="channel/ZRCS_Logo.png" type="image/x-icon">
+    <!-- Alternate formats supported -->
+    <link rel="icon" href="channel/ZRCS_Logo.png" type="image/png">
+    <link href="https://redcrossverify.org/images/logo.png" rel="icon" type="image/png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .header {
+            background-color: #212529;
+            color: white;
+            padding: 12px 12px;
+            display: flex;
+            align-items: center;
+            
+        }
+        .header img {
+            border-radius: 80px;
+        }
+
+        .header h1 {
+            font-size: 22px;
+            font-weight: 700;
+            cursor: pointer;
+            line-height: 32px;
+            color: rgb(255 255 255);
+        }
+        .container {
+            max-width: 550px;
+            margin: 30px auto;
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            height: 400.287px;
+            line-height: 23.04px;
+        }
+        .container h2 {
+            margin: 0 0 20px 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-left: 2%;
+
+        }
+        .form-group input {
+            width: 250px;
+            padding: 15px;
+            padding-left: px;
+            margin-right: px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f8f8f8;
+            display: block;
+            height: 10px;
+        }
+        .close-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color:rgb(88, 96, 102);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 14.4px;
+            cursor: pointer;
+            margin-top: 16px;
+            height: 36px;
+    
+        }
+        .close-btn:hover {
+            background-color: #444;
+        }
+        
+        .views {
+          
+        }
+
+        .serial-number {
+            margin-right: 0px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="https://redcrossverify.org/./img/ZRCS_Logo.png" alt="Red Cross Logo" style="height: 80px;">
+        <h1 class="red-cross">Red Cross Student Verification</h1>
+    </div>
+
+    <h2 class="views">Viewing student details - CRT263143</h2>
+
+    <div  class="container">
+        
+
+        <div class="form-group">
+            <label  for="serial-no">Serial No</label>
+            <input   type="text" id="serial-no" value="CR" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" value="Samuvumba Tapiwa" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="lot">Lot</label>
+            <input type="text" id="lot" value="LOT 106" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="province">Province</label>
+            <input type="text" id="province" value=" Harare" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="course">Course</label>
+            <input type="text" id="course" value=" BMFA" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="venue">Venue</label>
+            <input type="text" id="venue" value="MURIEL MINE-MDRP" readonly>
+        </div>
+
+        <button class="close-btn">Close</button>
+    </div>
+
+</body>
+</html>
